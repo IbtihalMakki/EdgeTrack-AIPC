@@ -1,0 +1,5 @@
+ultralytics==8.4.172
+opencv-python
+pandas
+matplotlib
+psutil

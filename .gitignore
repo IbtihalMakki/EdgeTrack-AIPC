@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+data/*.mp4
+data/*.avi
+
+*.engine
+*.onnx
+
+runs/
+
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model weights and exported models
+*.pt
+*.engine
+*.onnx
+
+# Development / preliminary benchmarks
+benchmark.py
+results/baseline_benchmark.csv
+results/gpu_fp32_benchmark.csv

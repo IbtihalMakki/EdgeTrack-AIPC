@@ -1,0 +1,5 @@
+Configuration,Latency (ms),Throughput (FPS),Inference (ms),P95 Latency (ms)
+CPU FP32,44.12,22.67,38.5,51.16
+GPU FP32,20.06,49.86,13.02,24.54
+GPU FP16,22.88,43.71,15.26,29.24
+TensorRT FP16,7.47,133.88,2.51,9.06
